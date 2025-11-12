@@ -1,0 +1,28 @@
+{
+  "name": "webauthn-portal",
+  "version": "1.0.0",
+  "description": "Portal seguro com autenticação biométrica WebAuthn",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:secure": "vue-cli-service build --modern",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^5.0.0",
+    "@vue/cli-plugin-pwa": "^5.0.0",
+    "@vue/cli-plugin-router": "^5.0.0",
+    "@vue/cli-service": "^5.0.0",
+    "eslint-plugin-vue": "^9.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
